@@ -1,0 +1,8 @@
+{
+  "short_name": "f34th3r-components",
+  "name": "f34th3r-components",
+  "start_url": "./index.html",
+  "display": "standalone",
+  "theme_color": "#000000",
+  "background_color": "#ffffff"
+}
