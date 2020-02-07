@@ -1,22 +1,9 @@
-import React, { Component } from 'react'
-import PropTypes from 'prop-types'
+import { Card } from './components/Card'
+import { Spacer } from './components/Spacer'
+import { Avatar } from './components/Avatar'
+import { Button } from './components/Button'
+import { Container } from './components/Container'
+import { Typography } from './components/Typography'
+import { ImageContainer } from './components/ImageContainer'
 
-import styles from './styles.css'
-
-export default class ExampleComponent extends Component {
-  static propTypes = {
-    text: PropTypes.string
-  }
-
-  render() {
-    const {
-      text
-    } = this.props
-
-    return (
-      <div className={styles.test}>
-        Example Component: {text}
-      </div>
-    )
-  }
-}
+export { Card, Avatar, Button, Spacer, Container, Typography, ImageContainer }
