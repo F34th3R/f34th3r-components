@@ -11,15 +11,18 @@ npm i f34th3r-components
 ```
 
 # Components
-- Card
-- Text
-- Container
-- Spacer
+- [Card](https://github.com/F34th3R/f34th3r-components#card)
+- [Text](https://github.com/F34th3R/f34th3r-components#text)
+- [Container](https://github.com/F34th3R/f34th3r-components#container)
+- [Spacer](https://github.com/F34th3R/f34th3r-components#spacer)
+- [Avatar](https://github.com/F34th3R/f34th3r-components#avatar)
+- [Button](https://github.com/F34th3R/f34th3r-components#button)
+- [imagecontainer](https://github.com/F34th3R/f34th3r-components#imagecontainer)
 
 Card
 ======
+##### [Go to components](https://github.com/F34th3R/f34th3r-components#components)
 #### Props
-
 | Name            | Type     | Default                          | Description                                             |
 | --------------- | -------- | -------------------------------- | ------------------------------------------------------- |
 | children        | `node`   |                                  | The content of the component.                           |
@@ -46,6 +49,7 @@ render() {
 
 Text
 ======
+##### [Go to components](https://github.com/F34th3R/f34th3r-components#components)
 #### Props
 | Name            | Type     | Default   | Description                                             |
 | --------------- | -------- | --------- | ------------------------------------------------------- |
@@ -110,6 +114,7 @@ render() {
 
 Container
 ======
+##### [Go to components](https://github.com/F34th3R/f34th3r-components#components)
 #### Props
 | Name            | Type     | Default  | Description                                             |
 | --------------- | -------- | -------- | ------------------------------------------------------- |
@@ -131,6 +136,7 @@ render() {
 
 Spacer
 ======
+##### [Go to components](https://github.com/F34th3R/f34th3r-components#components)
 #### Props
 | Name            | Type     | Default | Description                   |
 | --------------- | -------- | ------- | ----------------------------- |
@@ -149,6 +155,7 @@ render() {
 
 Avatar
 ======
+##### [Go to components](https://github.com/F34th3R/f34th3r-components#components)
 #### Props
 | Name            | Type     | Default | Description                                                        |
 | --------------- | -------- | ------- | ------------------------------------------------------------------ |
@@ -171,6 +178,7 @@ render() {
 
 Button
 ======
+##### [Go to components](https://github.com/F34th3R/f34th3r-components#components)
 #### Props
 | Name              | Type     | Default    | Description                                          |
 | ----------------- | -------- | ---------- | ---------------------------------------------------- |
@@ -206,6 +214,7 @@ render() {
 
 ImageContainer
 ======
+##### [Go to components](https://github.com/F34th3R/f34th3r-components#components)
 #### Props
 | Name       | Type     | Default | Description                                          |
 | ---------- | -------- | ------- | ---------------------------------------------------- |
