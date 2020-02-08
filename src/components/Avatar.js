@@ -3,6 +3,7 @@ import PropTypes from 'prop-types'
 
 const Avatar = ({
   children,
+  classes,
   width = '100px',
   height = '100px',
   rounded = '5px',
@@ -23,11 +24,16 @@ const Avatar = ({
     justifyContent: 'center',
     alignItems: 'center'
   }
-  return <div style={StyleComponent}>{children}</div>
+  return (
+    <div className={classes} style={StyleComponent}>
+      {children}
+    </div>
+  )
 }
 
 Avatar.propTypes = {
   children: PropTypes.node,
+  classes: PropTypes.object,
   width: PropTypes.string,
   height: PropTypes.string,
   rounded: PropTypes.string,

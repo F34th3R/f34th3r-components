@@ -1,9 +1,10 @@
 import React from 'react'
 import PropTypes from 'prop-types'
-import { Typography } from './Typography'
+import { Text } from './Text'
 
 const Button = ({
   children,
+  classes,
   disable = false,
   width = '100%',
   height = '48px',
@@ -31,21 +32,26 @@ const Button = ({
     cursor: disable ? 'default' : 'pointer'
   }
   return (
-    <div style={StyleComponent} onClick={onclick ? null : onClick}>
-      <Typography
+    <div
+      className={classes}
+      style={StyleComponent}
+      onClick={onclick ? null : onClick}
+    >
+      <Text
         fontSize={fontSize}
         fontWeigth={fontWeigth}
         style={{ margin: 'auto' }}
         color={disable ? disableColor : color}
       >
         {children}
-      </Typography>
+      </Text>
     </div>
   )
 }
 
 Button.propTypes = {
   children: PropTypes.node,
+  classes: PropTypes.object,
   disable: PropTypes.bool,
   width: PropTypes.string,
   height: PropTypes.string,

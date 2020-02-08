@@ -1,7 +1,9 @@
 import React from 'react'
+import PropTypes from 'prop-types'
 
-export const Container = ({
+const Container = ({
   children,
+  classes,
   maxWidth = '920px',
   padding = '0 18px'
 }) => {
@@ -11,5 +13,18 @@ export const Container = ({
     padding: padding,
     position: 'relative'
   }
-  return <div style={StyleComponent}>{children}</div>
+  return (
+    <div className={classes} style={StyleComponent}>
+      {children}
+    </div>
+  )
 }
+
+Container.propTypes = {
+  children: PropTypes.node,
+  classes: PropTypes.object,
+  maxWidth: PropTypes.string,
+  padding: PropTypes.string
+}
+
+export { Container }
