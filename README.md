@@ -1,27 +1,27 @@
-# f34th3r-components
+# f34th3r-react-components
 
 > My most used components 💃🏼📦
 
-[![NPM](https://img.shields.io/npm/v/f34th3r-components.svg)](https://www.npmjs.com/package/f34th3r-components) [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
+[![NPM](https://img.shields.io/npm/v/f34th3r-react-components.svg)](https://www.npmjs.com/package/f34th3r-react-components) [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
 
 ## Install
 
 ```bash
-npm i f34th3r-components
+npm i f34th3r-react-components
 ```
 
 # Components
-- [Card](https://github.com/F34th3R/f34th3r-components#card)
-- [Text](https://github.com/F34th3R/f34th3r-components#text)
-- [Container](https://github.com/F34th3R/f34th3r-components#container)
-- [Spacer](https://github.com/F34th3R/f34th3r-components#spacer)
-- [Avatar](https://github.com/F34th3R/f34th3r-components#avatar)
-- [Button](https://github.com/F34th3R/f34th3r-components#button)
-- [imagecontainer](https://github.com/F34th3R/f34th3r-components#imagecontainer)
+- [Card](https://github.com/F34th3R/f34th3r-react-components#card)
+- [Text](https://github.com/F34th3R/f34th3r-react-components#text)
+- [Container](https://github.com/F34th3R/f34th3r-react-components#container)
+- [Spacer](https://github.com/F34th3R/f34th3r-react-components#spacer)
+- [Avatar](https://github.com/F34th3R/f34th3r-react-components#avatar)
+- [Button](https://github.com/F34th3R/f34th3r-react-components#button)
+- [imagecontainer](https://github.com/F34th3R/f34th3r-react-components#imagecontainer)
 
 Card
 ======
-##### [Go to components](https://github.com/F34th3R/f34th3r-components#components)
+##### [Go to components](https://github.com/F34th3R/f34th3r-react-components#components)
 #### Props
 | Name            | Type     | Default                          | Description                                             |
 | --------------- | -------- | -------------------------------- | ------------------------------------------------------- |
@@ -38,7 +38,7 @@ Card
 
 #### Usage
 ```js
-import { Card } from 'f34th3r-components'
+import { Card } from 'f34th3r-react-components'
 
 render() {
   <Card flexDirection="column" width="300px">
@@ -49,7 +49,7 @@ render() {
 
 Text
 ======
-##### [Go to components](https://github.com/F34th3R/f34th3r-components#components)
+##### [Go to components](https://github.com/F34th3R/f34th3r-react-components#components)
 #### Props
 | Name            | Type     | Default   | Description                                             |
 | --------------- | -------- | --------- | ------------------------------------------------------- |
@@ -63,7 +63,7 @@ Text
 
 #### Usage
 ```js
-import { Text } from 'f34th3r-components'
+import { Text } from 'f34th3r-react-components'
 
 render() {
   <Text>
@@ -114,7 +114,7 @@ render() {
 
 Container
 ======
-##### [Go to components](https://github.com/F34th3R/f34th3r-components#components)
+##### [Go to components](https://github.com/F34th3R/f34th3r-react-components#components)
 #### Props
 | Name            | Type     | Default  | Description                                             |
 | --------------- | -------- | -------- | ------------------------------------------------------- |
@@ -125,7 +125,7 @@ Container
 
 #### Usage
 ```js
-import { Container } from 'f34th3r-components'
+import { Container } from 'f34th3r-react-components'
 
 render() {
   <Container>
@@ -136,7 +136,7 @@ render() {
 
 Spacer
 ======
-##### [Go to components](https://github.com/F34th3R/f34th3r-components#components)
+##### [Go to components](https://github.com/F34th3R/f34th3r-react-components#components)
 #### Props
 | Name            | Type     | Default | Description                   |
 | --------------- | -------- | ------- | ----------------------------- |
@@ -146,7 +146,7 @@ Spacer
 
 #### Usage
 ```js
-import { Spacer } from 'f34th3r-components'
+import { Spacer } from 'f34th3r-react-components'
 
 render() {
   <Spacer height="20px" />
@@ -155,7 +155,7 @@ render() {
 
 Avatar
 ======
-##### [Go to components](https://github.com/F34th3R/f34th3r-components#components)
+##### [Go to components](https://github.com/F34th3R/f34th3r-react-components#components)
 #### Props
 | Name            | Type     | Default | Description                                                        |
 | --------------- | -------- | ------- | ------------------------------------------------------------------ |
@@ -169,7 +169,7 @@ Avatar
 | image           | `string` |         | The Image of the avatar.                                           |
 #### Usage
 ```js
-import { Avatar } from 'f34th3r-components'
+import { Avatar } from 'f34th3r-react-components'
 
 render() {
   <Avatar background="#08B1C5" margin="auto" />
@@ -178,7 +178,7 @@ render() {
 
 Button
 ======
-##### [Go to components](https://github.com/F34th3R/f34th3r-components#components)
+##### [Go to components](https://github.com/F34th3R/f34th3r-react-components#components)
 #### Props
 | Name              | Type     | Default    | Description                                          |
 | ----------------- | -------- | ---------- | ---------------------------------------------------- |
@@ -199,7 +199,7 @@ Button
 | onClick           | `func`   |            | Sets function of the handlerClick.                   |
 #### Usage
 ```js
-import { Button } from 'f34th3r-components'
+import { Button } from 'f34th3r-react-components'
 
 render() {
   <Button
@@ -214,7 +214,7 @@ render() {
 
 ImageContainer
 ======
-##### [Go to components](https://github.com/F34th3R/f34th3r-components#components)
+##### [Go to components](https://github.com/F34th3R/f34th3r-react-components#components)
 #### Props
 | Name       | Type     | Default | Description                                          |
 | ---------- | -------- | ------- | ---------------------------------------------------- |
@@ -225,7 +225,7 @@ ImageContainer
 | image      | `string` |         | The background of the component.                     |
 #### Usage
 ```js
-import { ImageContainer } from 'f34th3r-components'
+import { ImageContainer } from 'f34th3r-react-components'
 
 render() {
   <ImageContainer
@@ -238,4 +238,4 @@ render() {
 
 ## License
 
-MIT © [F34th3R](https://github.com/F34th3R/f34th3r-components/blob/master/LICENSE)
+MIT © [F34th3R](https://github.com/F34th3R/f34th3r-react-components/blob/master/LICENSE)

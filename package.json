@@ -1,10 +1,10 @@
 {
-  "name": "f34th3r-components",
+  "name": "f34th3r-react-components",
   "version": "1.0.0",
   "description": "My most used components 💃🏼",
   "author": "F34th3R",
   "license": "MIT",
-  "repository": "F34th3R/f34th3r-components",
+  "repository": "F34th3R/f34th3r-react-components",
   "main": "dist/index.js",
   "module": "dist/index.es.js",
   "jsnext:main": "dist/index.es.js",
@@ -60,6 +60,5 @@
   },
   "files": [
     "dist"
-  ],
-  "dependencies": {}
+  ]
 }
