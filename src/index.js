@@ -1,14 +1,9 @@
-import './css/index.css'
+import "./css/index.css";
 
-import { Card } from './components/Card'
-import { Spacer } from './components/Spacer'
-import { Avatar } from './components/Avatar'
-import { Button } from './components/Button'
-import { Container } from './components/Container'
-import { ImageContainer } from './components/ImageContainer'
-
-// TEXT
-import { Text } from './components/Text'
-export { Text }
-
-export { Card, Avatar, Button, Spacer, Container, ImageContainer }
+import { Toast } from "./components/Toast";
+export { Card } from "./components/Card";
+export { Spacer } from "./components/Spacer";
+export { Avatar } from "./components/Avatar";
+export { Button } from "./components/Button";
+export { Container } from "./components/Container";
+export { ImageContainer } from "./components/ImageContainer";

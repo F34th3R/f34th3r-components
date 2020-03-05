@@ -1,4 +1,4 @@
-import React, { Component } from 'react'
+import React, { Component } from "react";
 
 import {
   Container,
@@ -7,13 +7,14 @@ import {
   Text,
   Avatar,
   Button
-} from 'f34th3r-components'
-import { TextPage } from './pages/TextPage'
+} from "feather-react-components";
+import { TextPage } from "./pages/TextPage";
 
 export default class App extends Component {
   render() {
     return (
       <Container>
+        <Spacer height="50px" />
         <Spacer height="50px" />
         <Card flexDirection="column" width="300px">
           <Avatar background="#08B1C5" margin="auto" />
@@ -24,7 +25,7 @@ export default class App extends Component {
           <Button
             background="#08B1C5"
             margin="20px 0"
-            onClick={() => console.log('hola')}
+            onClick={() => console.log("hola")}
           >
             Hola
           </Button>
@@ -34,7 +35,7 @@ export default class App extends Component {
           <Button
             background="#08B1C5"
             margin="20px 0"
-            onClick={() => console.log('hola')}
+            onClick={() => console.log("hola")}
           >
             Hola
           </Button>
@@ -43,6 +44,6 @@ export default class App extends Component {
         <TextPage />
         <Spacer height="50px" />
       </Container>
-    )
+    );
   }
 }

@@ -1,5 +1,5 @@
 import React from 'react'
-import { Card, Text } from 'f34th3r-components'
+import { Card, Text } from 'feather-react-components'
 
 export const TextPage = () => {
   return (
